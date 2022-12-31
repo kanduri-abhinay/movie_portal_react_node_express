@@ -1,0 +1,11 @@
+.list{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  list-style: none;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+.movies-container{
+  display: flex;
+  justify-content: flex-start;
+}

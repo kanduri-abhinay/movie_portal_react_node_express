@@ -1,0 +1,41 @@
+.movie-item-btn{
+  text-decoration: none;
+  background: transparent;
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+a.movie-item-btn{
+  text-decoration: none;
+}
+.movie-item-container{
+  img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  .movie-title{
+    margin: 0px 0px 4px;
+    color: rgb(34, 34, 34);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .movie-genre{
+    margin: 0px;
+    word-break: break-word;
+    color: rgb(102, 102, 102);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
